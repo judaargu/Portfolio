@@ -1,3 +1,20 @@
 .home {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
     padding: 20px;
+}
+
+.description {
+    padding-left: 150px;
+}
+
+.description h1 {
+    color: #E6E6E6;
+    text-decoration:underline solid 3px #0F3333;
+}
+
+.image {
+    width: 100%;
+    filter: grayscale(60%);
 }

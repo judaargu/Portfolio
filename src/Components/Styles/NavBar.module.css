@@ -1,0 +1,63 @@
+.navBar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.navBar span {
+    margin-top: 5px;
+    padding-right: 30px;
+}
+
+.navBar span a {
+    font-weight: normal;
+    text-decoration: none;
+    transition: all .2s;
+}
+
+.navBar span a::after {
+    content: "";
+    display: block;
+    height: 2px;
+    background-color: #C53F3F;
+    transform: scale(0,1);
+    transform-origin: center;
+    transition: transform .25s;
+    
+}
+  
+.navBar span a:hover::after {
+    transform: scale(1.1);
+}
+
+.navBar span a.selected::after {
+    transform: scale(1.1);
+}
+
+.music {
+    padding-right: 270px;
+}
+
+
+.navBar_fixed {
+    position: fixed;
+    width: 97%;
+    background-color: #080808; 
+    z-index: 1000;
+}
+
+.navBar div button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 250px;
+    border: none;
+    font-size: medium;
+    white-space: nowrap;
+    transition: all .2s;
+}
+
+.navBar div button:hover {
+    transform: scale(1.1);
+}
