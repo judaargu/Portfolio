@@ -6,7 +6,7 @@
 }
 
 .description {
-    padding-left: 150px;
+    padding-left: 100px;
 }
 
 .description h1 {
@@ -16,5 +16,6 @@
 
 .image {
     width: 100%;
+    margin-left: 5%;
     filter: grayscale(60%);
 }

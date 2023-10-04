@@ -4,6 +4,8 @@ import Style from "./Styles/NavBar.module.css";
 
 export const NavBar = () => {
   const [fixed, setFixed] = useState(false);
+  const [audio, setAudio] = useState(new Audio('/src/Song/your-little-wings.mp3'));
+  const [isPlay, setIsPlay] = useState(false);
 
   useEffect(() => {
     const adjustNavBar = () => {
@@ -15,7 +17,7 @@ export const NavBar = () => {
     };
     // Escuchamos el evento de scroll cuando el componente se monta
     window.addEventListener("scroll", adjustNavBar);
-
+    
     // Eliminamos el evento de scroll cuando el componente se desmonta
     return () => {
       window.removeEventListener("scroll", adjustNavBar);
@@ -32,12 +34,30 @@ export const NavBar = () => {
     link.click();
   };
 
+  const playSong = () => { 
+    if (!isPlay){
+      audio.play();
+      audio.volume = 0.5;
+      setIsPlay(true);
+
+    } else {
+      audio.pause();
+      setIsPlay(false);
+
+    }
+  }
+
   return (
     <div className={` ${Style.navBar} ${fixed ? Style.navBar_fixed : ""}`}>
       <div className={Style.music}>
-        <span>
+        <span onClick={playSong}>
+          {isPlay ? (
+            <img src="/src/images/ondas-sonoras.png" alt="Música" width="50px"/>
+            ) : (
             <img src="/src/images/musica.png" alt="Música" width="50px"/>
+          )}
         </span>
+        <span>¡Dale play a la música!</span>
       </div>
       <span>
         <a href="#home">Inicio</a>

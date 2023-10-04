@@ -1,3 +1,4 @@
+
 .navBar {
     display: flex;
     justify-content: center;
@@ -36,7 +37,19 @@
 }
 
 .music {
-    padding-right: 270px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-right: 180px;
+}
+
+.music span img {
+    transition: all .2s;
+}
+
+.music span img:hover {
+    transform: scale(1.1);
+    cursor: pointer;
 }
 
 
@@ -51,7 +64,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-left: 250px;
+    padding-left: 200px;
     border: none;
     font-size: medium;
     white-space: nowrap;
@@ -59,5 +72,6 @@
 }
 
 .navBar div button:hover {
-    transform: scale(1.1);
+    color: #C53F3F;
+    cursor: pointer;
 }

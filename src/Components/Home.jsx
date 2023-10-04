@@ -5,17 +5,18 @@ export default function Home() {
   return (
     <div className={Style.home}>
       <div className={Style.description}>
-        <h1>Hola! Soy FullStack developer</h1>
+        <h1>Hola! Soy Juan Ardila</h1>
         <br />
         <p>
-          Bienvenido a mi página web. Aquí encontrarás información sobre mí;
-          formación profesional, proyectos en los que he trabajado, tecnologías y
+          Bienvenido a mi página web. Aquí encontrarás información sobre;
+          mi formación profesional, proyectos en los que he trabajado, tecnologías que manejo y
           demás.
-          Te invito a continuar para conocer más sobre mí y mi trabajo.
         </p>
         <br />
-        <button>Botón para algo</button>
-        <br />
+        <p>
+          Te invito a darle play a la música para tener la mejor experiencia y a
+          continuar para conocer más sobre mí y mi trabajo.
+        </p>
       </div>
       <div className={Style.image}>
         <img src="/src/images/yo.png" alt="Yo"/>

@@ -10,10 +10,10 @@ function App() {
       <div>
         <NavBar />
       </div>
-      <div id="home">
+      <div id="home" className={Style.home}>
         <Home />
       </div>
-      <div id="about">
+      <div id="about" className={Style.about}>
         <About />
       </div>
     </div>
