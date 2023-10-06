@@ -14,7 +14,7 @@
 
 .slider {
     aspect-ratio: 8 / 16;
-    width: 250px;
+    width: 255px;
     position: relative;
     display: flex;
     overflow: scroll;
@@ -45,18 +45,17 @@
     padding: 10px;
 }
 
+.slider div p a {
+    background-color: #0F3333;
+}
+
 ::-webkit-scrollbar {
     width: 8px;
     height: 8px;
 }
 
 ::-webkit-scrollbar-thumb {
-    background: linear-gradient(to bottom, #DA5196, #D2E7E4);
+    background: linear-gradient(to bottom, #0F3333, #E6E6E6);
     border-radius: 50px;
-    transition: all .2s;
-}
-
-::-webkit-scrollbar-thumb:hover {
-    transform: scale(1.1);
 }
 

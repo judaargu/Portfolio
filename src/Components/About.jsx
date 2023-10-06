@@ -5,11 +5,11 @@ export const About = () => {
   return (
     <div>
       <div className={Style.about}>
-        <img src="/src/images/personaje.png" alt="Personaje" width='400px' />
+        <img src="/src/Images/personaje.png" alt="Personaje" width='400px' />
         <div>
           <h2>➡ Acerca de mí</h2>
           <p>
-            Mi nombre es Juan david Ardia Gutiérrez, tengo 27 años, vivo en Bogotá
+            Mi nombre es Juan david Ardia Gutiérrez, vivo en Bogotá
             D.C, Colombia. Soy desarrollador FullStack, con conocimientos en el diseño,
             desarrollo y mantenimiento de soluciones informáticas con tecnologías como JavaScript,
             Python, ReactJS, Redux, Express, HTML, CSS, PosgreSQL y MySQL.

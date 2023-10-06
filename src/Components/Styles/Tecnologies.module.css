@@ -1,0 +1,30 @@
+.h2 {
+    text-align: center;
+    text-decoration: underline 3px #0F3333;
+    margin: 5% 0;
+}
+
+.tecnology {
+    margin-bottom: 5%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0 20px;
+}
+
+.tecnology span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: large;
+    border: solid 2px #0F3333;
+    border-radius: 10px;
+    padding: 5px;
+    box-shadow: inset 1px 1px 3px 1px #E6E6E6;
+    margin: 2%;
+}
+
+.tecnology span img {
+    padding-right: 6px;
+}

@@ -3,6 +3,7 @@ import { About } from "./Components/About";
 import Style from "./App.module.css";
 import { NavBar } from "./Components/NavBar";
 import { Projects } from "./Components/Projects";
+import { Tecnologies } from "./Components/tecnologies";
 
 function App() {
  
@@ -19,6 +20,9 @@ function App() {
       </div>
       <div id="projects" className={Style.projects}>
         <Projects />
+      </div>
+      <div id="tecnologies" className={Style.tecnologies}>
+        <Tecnologies />
       </div>
     </div>
   );
