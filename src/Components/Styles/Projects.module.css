@@ -1,0 +1,62 @@
+.h2 {
+    text-align: center;
+    text-decoration: underline 3px #0F3333;
+    margin: 5% 0;
+}
+
+.projects {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 5%;
+}
+
+.slider {
+    aspect-ratio: 8 / 16;
+    width: 250px;
+    position: relative;
+    display: flex;
+    overflow: scroll;
+    overflow-y: hidden;
+    scroll-snap-type: x mandatory;
+}
+
+.slider img, .slider div {
+    width: 100%;
+    left: 0;
+    position: sticky;
+    object-fit: fill;
+    scroll-snap-align: center;
+}
+
+.slider div {
+    background-color: #0F3333;
+    font-size:smaller;
+}
+
+.slider div h3 {
+    background-color: #0F3333;
+    padding: 6px;
+}
+
+.slider div p {
+    background-color: #0F3333;
+    padding: 10px;
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: linear-gradient(to bottom, #DA5196, #D2E7E4);
+    border-radius: 50px;
+    transition: all .2s;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    transform: scale(1.1);
+}
+

@@ -2,6 +2,7 @@ import Home from "./Components/Home";
 import { About } from "./Components/About";
 import Style from "./App.module.css";
 import { NavBar } from "./Components/NavBar";
+import { Projects } from "./Components/Projects";
 
 function App() {
  
@@ -15,6 +16,9 @@ function App() {
       </div>
       <div id="about" className={Style.about}>
         <About />
+      </div>
+      <div id="projects" className={Style.projects}>
+        <Projects />
       </div>
     </div>
   );

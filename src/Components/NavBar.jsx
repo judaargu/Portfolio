@@ -66,7 +66,7 @@ export const NavBar = () => {
         <a href="#about">Acerca de mi</a>
       </span>
       <span>
-        <a href="">Proyectos</a>
+        <a href="#projects">Proyectos</a>
       </span>
       <span>
         <a href="">Tecnologías</a>
