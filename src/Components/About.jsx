@@ -12,7 +12,7 @@ export const About = () => {
             Mi nombre es Juan david Ardia Gutiérrez, vivo en Bogotá
             D.C, Colombia. Soy desarrollador FullStack, con conocimientos en el diseño,
             desarrollo y mantenimiento de soluciones informáticas con tecnologías como JavaScript,
-            Python, ReactJS, Redux, Express, HTML, CSS, PosgreSQL y MySQL.
+            Python, ReactJS, Redux, Express, HTML, CSS, PostgreSQL y MySQL.
           </p>
           <br />
           <p>

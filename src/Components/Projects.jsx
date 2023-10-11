@@ -67,7 +67,7 @@ export const Projects = () => {
               cuenta con una interfaz amigable para el usuario, en donde
               inicialmente se renderizan todas las recetas con un paginado de 9
               recetas por página. En PostgreSQL se diseñan dos bases de datos
-              con ayuda de Sequelize. En la ventana principal, cuenta con
+              con ayuda de Sequelize. La ventana principal, cuenta con
               diferentes tipos de filtrado. Además, la página cuenta con una
               opción para que el usuario pueda incluir su propia receta.
             </p>
