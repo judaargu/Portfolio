@@ -3,7 +3,7 @@ import { About } from "./Components/About";
 import Style from "./App.module.css";
 import { NavBar } from "./Components/NavBar";
 import { Projects } from "./Components/Projects";
-import { Tecnologies } from "./Components/tecnologies";
+import { Tecnologies } from "./Components/Tecnologies";
 import { Footer } from "./Components/Footer";
 
 function App() {
