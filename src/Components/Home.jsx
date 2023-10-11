@@ -19,7 +19,7 @@ export default function Home() {
         </p>
       </div>
       <div className={Style.image}>
-        <img src="/Juancho.png" alt="Yo" height='500px'/>
+        <img src="/public/Images/Juancho.png" alt="Yo" height='500px'/>
       </div>
     </div>
   );
