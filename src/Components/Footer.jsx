@@ -18,7 +18,7 @@ export const Footer = () => {
     event.preventDefault();
     if (Object.values(errors).length === 0) {
       try {
-        await axios.post("http://localhost:3001/", input);
+        await axios.post("https://portfolio-back-production-bce7.up.railway.app/", input);
       } catch (error) {
         console.error("No se envió el correo", error);
       }
