@@ -72,7 +72,7 @@ export const NavBar = () => {
         <a href="#tecnologies">Tecnologías</a>
       </span>
       <span>
-        <a href="">Contacto</a>
+        <a href="#footer">Contacto</a>
       </span>
       <div>
         <button onClick={handleCV}>

@@ -10,7 +10,7 @@
     scroll-behavior: smooth;
 }
 
-.home, .about, .projects, .tecnologies{
+.home, .about, .projects, .tecnologies, .footer{
     scroll-margin-top: 100px;
 }
 

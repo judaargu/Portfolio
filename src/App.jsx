@@ -4,6 +4,7 @@ import Style from "./App.module.css";
 import { NavBar } from "./Components/NavBar";
 import { Projects } from "./Components/Projects";
 import { Tecnologies } from "./Components/tecnologies";
+import { Footer } from "./Components/Footer";
 
 function App() {
  
@@ -23,6 +24,9 @@ function App() {
       </div>
       <div id="tecnologies" className={Style.tecnologies}>
         <Tecnologies />
+      </div>
+      <div id="footer" className={Style.footer}>
+        <Footer />
       </div>
     </div>
   );
