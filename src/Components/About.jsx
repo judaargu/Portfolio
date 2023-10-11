@@ -5,7 +5,7 @@ export const About = () => {
   return (
     <div>
       <div className={Style.about}>
-        <img src="/src/Images/personaje.png" alt="Personaje" width='400px' />
+        <img src="/public/Images/personaje.png" alt="Personaje" width='400px' />
         <div>
           <h2>➡ Acerca de mí</h2>
           <p>

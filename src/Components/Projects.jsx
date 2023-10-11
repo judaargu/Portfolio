@@ -7,7 +7,7 @@ export const Projects = () => {
       <h2 className={Style.h2}>➡ Proyectos </h2>
       <div className={Style.projects}>
         <div className={Style.slider}>
-          <img src="/src/Images/Rickandmorty.jpg" alt="Rick and morty" />
+          <img src="/public/Images/Rickandmorty.jpg" alt="Rick and morty" />
           <div>
             <h3>Aplicación Rick and Morty</h3>
             <p>
@@ -29,7 +29,7 @@ export const Projects = () => {
           </div>
         </div>
         <div className={Style.slider}>
-          <img src="/src/Images/vinilo.jpg" alt="Vinilo" />
+          <img src="/public/Images/vinilo.jpg" alt="Vinilo" />
           <div>
             <h3>Aplicación web de Vinyls-trade</h3>
             <p>
@@ -59,7 +59,7 @@ export const Projects = () => {
           </div>
         </div>
         <div className={Style.slider}>
-          <img src="/src/Images/receta.jpg" alt="Receta" />
+          <img src="/public/Images/receta.jpg" alt="Receta" />
           <div>
             <h3>Aplicación web de recetas de cocina</h3>
             <p>

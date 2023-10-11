@@ -25,7 +25,7 @@ export const NavBar = () => {
   }, []);
 
   const handleCV = () => {
-    const cvURL = "/src/CV/CV Juan Ardila Desarrollador Fullstack.pdf";
+    const cvURL = "/public/CV/CV Juan Ardila Desarrollador Fullstack.pdf";
 
     const link = document.createElement("a");
     link.href = cvURL;
@@ -52,9 +52,9 @@ export const NavBar = () => {
       <div className={Style.music}>
         <span onClick={playSong}>
           {isPlay ? (
-            <img src="/src/Icons/ondas-sonoras.png" alt="Música" width="50px"/>
+            <img src="/public/Icons/ondas-sonoras.png" alt="Música" width="50px"/>
             ) : (
-            <img src="/src/Icons/musica.png" alt="Música" width="50px"/>
+            <img src="/public/Icons/musica.png" alt="Música" width="50px"/>
           )}
         </span>
         <span>¡Dale play a la música!</span>
@@ -77,7 +77,7 @@ export const NavBar = () => {
       <div>
         <button onClick={handleCV}>
           <img
-            src="/src/Icons/descargar.png"
+            src="/public/Icons/descargar.png"
             alt="descargar CV"
             height="27px"
           />

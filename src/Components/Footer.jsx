@@ -54,19 +54,19 @@ export const Footer = () => {
         href="https://github.com/judaargu"
         target="_blank"
         rel="noreferrer"
-        ><img src="/src/Icons/github.png" alt="gitHub" />
+        ><img src="/public/Icons/github.png" alt="gitHub" />
         </a>
         <a
         href="https://www.linkedin.com/in/ardila-juan/"
         target="_blank"
         rel="noreferrer"
-        ><img src="/src/Icons/linkedin.png" alt="linkedin" />
+        ><img src="/public/Icons/linkedin.png" alt="linkedin" />
         </a>
         <a
         href="https://www.instagram.com/juandavidarg/"
         target="_blank"
         rel="noreferrer"
-        ><img src="/src/Icons/instagram.png" alt="instagram" />
+        ><img src="/public/Icons/instagram.png" alt="instagram" />
         </a>
       </div>
     </div>
