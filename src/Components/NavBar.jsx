@@ -4,7 +4,7 @@ import Style from "./Styles/NavBar.module.css";
 
 export const NavBar = () => {
   const [fixed, setFixed] = useState(false);
-  const [audio, setAudio] = useState(new Audio('/src/Song/your-little-wings.mp3'));
+  const [audio, setAudio] = useState(new Audio('/public/Song/your-little-wings.mp3'));
   const [isPlay, setIsPlay] = useState(false);
 
   useEffect(() => {
