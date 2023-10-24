@@ -7,7 +7,10 @@ export const Projects = () => {
       <h2 className={Style.h2}>➡ Proyectos </h2>
       <div className={Style.projects}>
         <div className={Style.slider}>
-          <img src="/public/Images/Rickandmorty.jpg" alt="Rick and morty" />
+          <img
+            src="https://res.cloudinary.com/juan-ardila/image/upload/v1698186876/Folder-images/Rickandmorty_nithaq.jpg"
+            alt="Rick and morty"
+          />
           <div>
             <h3>Aplicación Rick and Morty</h3>
             <p>
@@ -22,14 +25,21 @@ export const Projects = () => {
             <br />
             <p>
               GitHub:{" "}
-              <a href="https://github.com/judaargu/Proyecto-integrador.git" target="_blank" rel="noreferrer">
+              <a
+                href="https://github.com/judaargu/Proyecto-integrador.git"
+                target="_blank"
+                rel="noreferrer"
+              >
                 https://github.com/judaargu/Proyecto-integrador.git
               </a>
             </p>
           </div>
         </div>
         <div className={Style.slider}>
-          <img src="/public/Images/vinilo.jpg" alt="Vinilo" />
+          <img
+            src="https://res.cloudinary.com/juan-ardila/image/upload/v1698186872/Folder-images/vinilo_sovywi.jpg"
+            alt="Vinilo"
+          />
           <div>
             <h3>Aplicación web de Vinyls-trade</h3>
             <p>
@@ -45,21 +55,31 @@ export const Projects = () => {
             <br />
             <p>
               Video:
-              <a href="https://www.youtube.com/watch?v=8BUv3IHz7Ew" target="_blank" rel="noreferrer">
-                
+              <a
+                href="https://www.youtube.com/watch?v=8BUv3IHz7Ew"
+                target="_blank"
+                rel="noreferrer"
+              >
                 https://www.youtube.com/watch?v=8BUv3IHz7Ew
               </a>
             </p>
             <p>
               GitHub:{" "}
-              <a href="https://github.com/judaargu/Vinysls-trade-back.git" target="_blank" rel="noreferrer">
+              <a
+                href="https://github.com/judaargu/Vinysls-trade-back.git"
+                target="_blank"
+                rel="noreferrer"
+              >
                 https://github.com/judaargu/Vinysls-trade-back.git
               </a>
             </p>
           </div>
         </div>
         <div className={Style.slider}>
-          <img src="/public/Images/receta.jpg" alt="Receta" />
+          <img
+            src="https://res.cloudinary.com/juan-ardila/image/upload/v1698186875/Folder-images/receta_l2mcsy.jpg"
+            alt="Receta"
+          />
           <div>
             <h3>Aplicación web de recetas de cocina</h3>
             <p>
@@ -74,7 +94,11 @@ export const Projects = () => {
             <br />
             <p>
               GitHub:{" "}
-              <a href="https://github.com/judaargu/Proyecto-individual.git" target="_blank" rel="noreferrer">
+              <a
+                href="https://github.com/judaargu/Proyecto-individual.git"
+                target="_blank"
+                rel="noreferrer"
+              >
                 https://github.com/judaargu/Proyecto-individual.git
               </a>
             </p>
