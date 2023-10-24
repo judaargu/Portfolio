@@ -5,7 +5,7 @@ import Style from "./Styles/NavBar.module.css";
 export const NavBar = () => {
   const [fixed, setFixed] = useState(false);
   const [audio, setAudio] = useState(
-    new Audio("/public/Song/your-little-wings.mp3")
+    new Audio("https://res.cloudinary.com/juan-ardila/video/upload/v1698188426/Folder-song/your-little-wings_ms914f.mp3")
   );
   const [isPlay, setIsPlay] = useState(false);
 
