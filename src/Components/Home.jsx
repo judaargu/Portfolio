@@ -1,5 +1,5 @@
 import React from "react";
-import Style from "./Styles/Home.module.css"
+import Style from "./Styles/Home.module.css";
 
 export default function Home() {
   return (
@@ -8,9 +8,9 @@ export default function Home() {
         <h1>Hola! Soy Juan Ardila</h1>
         <br />
         <p>
-          Bienvenido a mi página web. Aquí encontrarás información sobre;
-          mi formación profesional, proyectos en los que he trabajado, tecnologías que manejo y
-          demás.
+          Bienvenido a mi página web. Aquí encontrarás información sobre; mi
+          formación profesional, proyectos en los que he trabajado, tecnologías
+          que manejo y demás.
         </p>
         <br />
         <p>
@@ -19,7 +19,11 @@ export default function Home() {
         </p>
       </div>
       <div className={Style.image}>
-        <img src="/public/Images/Juancho.png" alt="Yo" height='500px'/>
+        <img
+          src="https://res.cloudinary.com/juan-ardila/image/upload/v1698184548/Folder-images/Juancho_def1e5.png"
+          alt="Yo"
+          height="500px"
+        />
       </div>
     </div>
   );
