@@ -18,7 +18,10 @@ export const Footer = () => {
     event.preventDefault();
     if (Object.values(errors).length === 0) {
       try {
-        await axios.post("https://portfolio-back-production-bce7.up.railway.app/", input);
+        await axios.post(
+          "https://portfolio-back-production-bce7.up.railway.app/",
+          input
+        );
       } catch (error) {
         console.error("No se envió el correo", error);
       }
@@ -50,23 +53,31 @@ export const Footer = () => {
         <button>Enviar mensaje</button>
       </form>
       <div className={Style.social}>
-        <a
-        href="https://github.com/judaargu"
-        target="_blank"
-        rel="noreferrer"
-        ><img src="/public/Icons/github.png" alt="gitHub" />
+        <a href="https://github.com/judaargu" target="_blank" rel="noreferrer">
+          <img
+            src="https://res.cloudinary.com/juan-ardila/image/upload/v1698187203/Folder-Icons/github_assghd.png"
+            alt="gitHub"
+          />
         </a>
         <a
-        href="https://www.linkedin.com/in/ardila-juan/"
-        target="_blank"
-        rel="noreferrer"
-        ><img src="/public/Icons/linkedin.png" alt="linkedin" />
+          href="https://www.linkedin.com/in/ardila-juan/"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <img
+            src="https://res.cloudinary.com/juan-ardila/image/upload/v1698187207/Folder-Icons/linkedin_v2su8b.png"
+            alt="linkedin"
+          />
         </a>
         <a
-        href="https://www.instagram.com/juandavidarg/"
-        target="_blank"
-        rel="noreferrer"
-        ><img src="/public/Icons/instagram.png" alt="instagram" />
+          href="https://www.instagram.com/juandavidarg/"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <img
+            src="https://res.cloudinary.com/juan-ardila/image/upload/v1698187205/Folder-Icons/instagram_wre12l.png"
+            alt="instagram"
+          />
         </a>
       </div>
     </div>
