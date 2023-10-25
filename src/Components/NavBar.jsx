@@ -31,7 +31,9 @@ export const NavBar = () => {
 
     const link = document.createElement("a");
     link.href = cvURL;
-    link.download = "CV_Juan_Ardila.pdf";
+    link.target = "_blank"
+    link.rel = "noreferrer"
+    // link.download = "CV_Juan_Ardila.pdf";
 
     link.click();
   };
