@@ -27,7 +27,7 @@ export const NavBar = () => {
   }, []);
 
   const handleCV = () => {
-    const cvURL = "/public/CV/CV Juan Ardila Desarrollador Fullstack.pdf";
+    const cvURL = "https://res.cloudinary.com/juan-ardila/image/upload/v1698188120/CV/CV_Juan_Ardila_Desarrollador_Fullstack_igewva.pdf";
 
     const link = document.createElement("a");
     link.href = cvURL;
