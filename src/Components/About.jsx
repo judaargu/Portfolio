@@ -5,11 +5,6 @@ export const About = () => {
   return (
     <div>
       <div className={Style.about}>
-        <img
-          src="https://res.cloudinary.com/juan-ardila/image/upload/v1698186889/Folder-images/personaje_fro8rq.png"
-          alt="Personaje"
-          width="400px"
-        />
         <div>
           <h2>➡ Acerca de mí</h2>
           <p>
@@ -38,15 +33,22 @@ export const About = () => {
           </p>
           <br />
         </div>
+        <img
+          src="https://res.cloudinary.com/juan-ardila/image/upload/v1698186889/Folder-images/personaje_fro8rq.png"
+          alt="Personaje"
+          width="300px"
+        />
       </div>
-      <h2 className={Style.h2}>Soft Skills</h2>
-      <div className={Style.soft}>
-        <button>Liderazgo</button>
-        <button>Trabajo en equipo</button>
-        <button>Adaptabilidad al cambio</button>
-        <button>Rápido aprendizaje</button>
-        <button>Autoaprendizaje</button>
-        <button>Solución de problemas</button>
+      <div>
+        <h2 className={Style.h2}>Soft Skills</h2>
+        <div className={Style.soft}>
+          <button>Liderazgo</button>
+          <button>Trabajo en equipo</button>
+          <button>Adaptabilidad al cambio</button>
+          <button>Rápido aprendizaje</button>
+          <button>Autoaprendizaje</button>
+          <button>Solución de problemas</button>
+        </div>
       </div>
     </div>
   );

@@ -1,22 +1,28 @@
 .about {
     display: flex;
-    justify-content: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
     align-items: center;
-    margin-top: 5%;
-    margin-left: 15%;
-    margin-bottom: 20px;
-    padding: 20px;
+    /* margin-bottom: 20px; */
+    /* padding: 20px; */
 }
 
 .about img {
+    min-width: 150px;
     border: none;
     border-radius: 5px;
     box-shadow: 0px 5px 10px 0px #D4F2F2;
+    margin-top: 5%;
+    
 }
 
 .about div {
-    margin-right: 5%;
-    margin-left: 10%;
+    /* margin-left: 10%; */
+    margin-top: 5%;
+    padding: 5px;
+    text-align: justify;
+    width: 500px;
+    min-width: 100px;
 }
 
 .about h2 {
@@ -25,23 +31,22 @@
 }
 
 .h2 {
-    display: flex;
-    justify-content: center;
-    margin: 0 0 40px 10%;
+    text-align: center;
+    margin-bottom: 3%;
+    margin-top: 5%;
+
 }
 
 .soft{    
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     flex-wrap: wrap;
-    margin-left: 25%;
-    margin-right: 5%;
     margin-bottom: 10%;
 }
 
 .soft button {
     padding: 20px;
-    margin-right: 50px;
+    margin-right: 40px;
     margin-bottom: 40px;
     background-color: #E6E6E6;
     color: #080808;

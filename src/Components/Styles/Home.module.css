@@ -1,13 +1,17 @@
 .home {
     display: flex;
-    justify-content: space-around;
+    flex-wrap: wrap;
+    justify-content:space-around;
     align-items: center;
-    padding: 0 20px 20px 20px;
+    /* padding: 0 20px 20px 20px; */
 }
 
 .description {
-    padding-left: 150px;
-    padding-top: 100px;
+    width: 500px;
+    min-width: 100px;
+    padding: 5px;
+    /* margin-left: 100px; */
+    text-align: justify;
 }
 
 .description h1 {
@@ -16,9 +20,6 @@
 }
 
 .image {
-    /* width: 100%; */
-    margin-top: 0;
-    margin-left: 10%;
-    margin-right: 5%;
     filter: grayscale(60%);
+    min-height: 300px;
 }

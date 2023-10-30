@@ -1,6 +1,7 @@
 import React from "react";
 import { useEffect, useState } from "react";
 import Style from "./Styles/NavBar.module.css";
+import { BurguerButton } from "./BurguerButton";
 
 export const NavBar = () => {
   const [fixed, setFixed] = useState(false);
@@ -50,49 +51,54 @@ export const NavBar = () => {
   };
 
   return (
-    <div className={` ${Style.navBar} ${fixed ? Style.navBar_fixed : ""}`}>
-      <div className={Style.music}>
-        <span onClick={playSong}>
-          {isPlay ? (
-            <img
+    <div>
+      <div className={Style.burguer}>
+        <BurguerButton />
+      </div>
+      <div className={` ${Style.navBar} ${fixed ? Style.navBar_fixed : ""}`}>
+        <div className={Style.music}>
+          <span onClick={playSong}>
+            {isPlay ? (
+              <img
               src="https://res.cloudinary.com/juan-ardila/image/upload/v1698187193/Folder-Icons/ondas-sonoras_yyggr4.png"
               alt="Música"
               width="50px"
-            />
-          ) : (
-            <img
+              />
+            ) : (
+              <img
               src="https://res.cloudinary.com/juan-ardila/image/upload/v1698187208/Folder-Icons/musica_syn7ta.png"
               alt="Música"
               width="50px"
-            />
-          )}
+              />
+            )}
+          </span>
+          <span>¡Dale play a la música!</span>
+        </div>
+        <span>
+          <a href="#home">Inicio</a>
         </span>
-        <span>¡Dale play a la música!</span>
-      </div>
-      <span>
-        <a href="#home">Inicio</a>
-      </span>
-      <span>
-        <a href="#about">Acerca de mi</a>
-      </span>
-      <span>
-        <a href="#projects">Proyectos</a>
-      </span>
-      <span>
-        <a href="#tecnologies">Tecnologías</a>
-      </span>
-      <span>
-        <a href="#footer">Contacto</a>
-      </span>
-      <div>
-        <button onClick={handleCV}>
-          <img
-            src="https://res.cloudinary.com/juan-ardila/image/upload/v1698187199/Folder-Icons/descargar_xxjj2j.png"
-            alt="descargar CV"
-            height="27px"
-          />
-          Descargar CV
-        </button>
+        <span>
+          <a href="#about">Acerca de mi</a>
+        </span>
+        <span>
+          <a href="#projects">Proyectos</a>
+        </span>
+        <span>
+          <a href="#tecnologies">Tecnologías</a>
+        </span>
+        <span>
+          <a href="#footer">Contacto</a>
+        </span>
+        <div>
+          <button onClick={handleCV}>
+            <img
+              src="https://res.cloudinary.com/juan-ardila/image/upload/v1698187199/Folder-Icons/descargar_xxjj2j.png"
+              alt="descargar CV"
+              height="27px"
+            />
+            Descargar CV
+          </button>
+        </div>
       </div>
     </div>
   );

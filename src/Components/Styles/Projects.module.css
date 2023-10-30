@@ -6,10 +6,11 @@
 
 .projects {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
     width: 100%;
-    margin-bottom: 5%;
+    /* margin-bottom: 5%; */
 }
 
 .slider {
@@ -20,6 +21,7 @@
     overflow: scroll;
     overflow-y: hidden;
     scroll-snap-type: x mandatory;
+    margin-bottom: 5%;
 }
 
 .slider img, .slider div {

@@ -1,14 +1,25 @@
-
-.navBar {
-    display: flex;
+.navBar, .navBar span, .navBar div button {
+    /* position: absolute; */
+    width: 100%;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 20px;
-}
-
-.navBar span {
-    margin-top: 5px;
-    padding-right: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 5%;
+    left: 0;
+    right: 0;
+    text-align: center;
+    @media (min-width: 768px) {
+        width: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 20px 30px;
+        margin-left: 0;
+        margin-right: 0;
+    }
 }
 
 .navBar span a {
@@ -40,7 +51,10 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-right: 180px;
+    @media (max-width: 768px) {
+        flex-direction: column;
+    }
+    /* padding-right: 180px; */
 }
 
 .music span img {
@@ -58,20 +72,32 @@
     width: 97%;
     background-color: #080808; 
     z-index: 1000;
+    @media (max-width: 768px) {
+        position:relative;
+    }
 }
 
 .navBar div button {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-left: 200px;
+    /* padding-left: 200px; */
     border: none;
     font-size: medium;
     white-space: nowrap;
     transition: all .2s;
+    @media (max-width: 768px) {
+        flex-direction: column;
+    }
 }
 
 .navBar div button:hover {
     color: #C53F3F;
     cursor: pointer;
+}
+
+.burguer {
+    @media (min-width: 768px) {
+        display: none;
+    }
 }
