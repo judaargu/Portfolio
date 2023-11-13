@@ -1,14 +1,15 @@
 import React from "react";
 import { useEffect, useState } from "react";
 import Style from "./Styles/NavBar.module.css";
-import { BurguerButton } from "./BurguerButton";
+// import { BurguerButton } from "./BurguerButton";
 
 export const NavBar = () => {
   const [fixed, setFixed] = useState(false);
   const [audio, setAudio] = useState(
     new Audio("https://res.cloudinary.com/juan-ardila/video/upload/v1698188426/Folder-song/your-little-wings_ms914f.mp3")
-  );
+    );
   const [isPlay, setIsPlay] = useState(false);
+  const [clicked, setClicked] = useState(false);
 
   useEffect(() => {
     const adjustNavBar = () => {
@@ -52,9 +53,6 @@ export const NavBar = () => {
 
   return (
     <div>
-      <div className={Style.burguer}>
-        <BurguerButton />
-      </div>
       <div className={` ${Style.navBar} ${fixed ? Style.navBar_fixed : ""}`}>
         <div className={Style.music}>
           <span onClick={playSong}>

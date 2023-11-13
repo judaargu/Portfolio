@@ -22,7 +22,7 @@ export default function Home() {
         <img
           src="https://res.cloudinary.com/juan-ardila/image/upload/v1698184548/Folder-images/Juancho_def1e5.png"
           alt="Yo"
-          height="500px"
+          height="400px"
         />
       </div>
     </div>

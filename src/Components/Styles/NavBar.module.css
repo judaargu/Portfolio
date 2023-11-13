@@ -1,6 +1,7 @@
 .navBar, .navBar span, .navBar div button {
     /* position: absolute; */
-    width: 100%;
+    width: auto;
+    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -21,6 +22,23 @@
         margin-right: 0;
     }
 }
+
+.isActive, .isActive span, .isActive div button {
+
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 5%;
+    top: 30%;
+    left: 0;
+    right: 0;
+    text-align: center;
+
+} 
 
 .navBar span a {
     font-weight: normal;
@@ -94,10 +112,4 @@
 .navBar div button:hover {
     color: #C53F3F;
     cursor: pointer;
-}
-
-.burguer {
-    @media (min-width: 768px) {
-        display: none;
-    }
 }
